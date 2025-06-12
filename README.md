@@ -48,9 +48,9 @@ This will run all tests in the project, including:
 
 ## Running
 
-Start the server:
+Start the server, by going to the root directory and running:
 ```bash
-./weather
+go run main.go
 ```
 
 The server will start on port 8080.
@@ -88,12 +88,8 @@ You can find latitude and longitude coordinates for any location using these met
    - Search for your location
    - Right-click on the map and coordinates are the first option that shows up. If you click them they are copy-able.
 
-2. **LatLong.net**
-   - Visit [LatLong.net](https://www.latlong.net/)
-   - Search for your city or location
-   - Get the coordinates directly
 
-3. **Example Coordinates:**
+2. **Example Coordinates:**
    - New York City: 40.7128, -74.0060
    - Los Angeles: 34.0522, -118.2437
    - London: 51.5074, -0.1278
